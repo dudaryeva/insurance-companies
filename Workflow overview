@@ -1,0 +1,8 @@
+1. data transform
+   - remove columns and rows
+   - change data types
+2. Create measures
+Combined Ratio = DIVIDE([Total Claims] + SUM('СК 01 04'[Технічні резерви за класами страхування життя]) + SUM('СК 01 04'[Технічні резерви за класами страхування іншого, ніж страхування життя]), [Total Premiums], 0)
+
+3. Add visuals and filters
+4. Formating
